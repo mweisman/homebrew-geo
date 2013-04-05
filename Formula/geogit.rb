@@ -6,7 +6,7 @@ class Geogit < Formula
   sha1 'ccd131fb9d6818ffdb84582c437e8b701c8c76ea'
 
   def install
-    rm_f Dir["bin/*.bat", "bin/cygrails", "*.bat"]
+    rm_f Dir["bin/*.bat", "*.bat"]
     libexec.install Dir['*']
     bin.install_symlink Dir["#{libexec}/bin/*"]
   end
