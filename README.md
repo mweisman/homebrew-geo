@@ -1,1 +1,9 @@
+# homebrew-geohub
 
+## Installation
+1. Install [homebrew](http://mxcl.github.io/homebrew/)
+2. `brew tap mweisman/homebrew-geohub`
+3. 🍺 
+
+## Current forumula
+- [GeoGit](https://github.com/opengeo/GeoGit)
