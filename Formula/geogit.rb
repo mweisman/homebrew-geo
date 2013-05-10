@@ -2,8 +2,8 @@ require 'formula'
 
 class Geogit < Formula
   homepage 'https://github.com/opengeo/GeoGit'
-  url 'http://astromech.opengeo.org/geogit/geogit-cli-app-0.1-20130405.zip'
-  sha1 'ccd131fb9d6818ffdb84582c437e8b701c8c76ea'
+  url 'http://sourceforge.net/projects/geogit/files/geogit-0.1.0/geogit-cli-app-0.1.0.zip/download'
+  sha1 'ddf737f21d4388aef303307b88aa4c4134faf5a1'
 
   def install
     rm_f Dir["bin/*.bat", "*.bat"]
